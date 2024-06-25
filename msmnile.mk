@@ -366,6 +366,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Platform
+PRODUCT_BOARD_PLATFORM := msmnile
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
