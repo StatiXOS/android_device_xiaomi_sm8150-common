@@ -375,7 +375,7 @@ PRODUCT_USES_QCOM_HARDWARE := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.lineage-libperfmgr \
+    android.hardware.power-service.statix-libperfmgr \
     libqti-perfd-client
 
 PRODUCT_COPY_FILES += \
@@ -384,7 +384,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/statix/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # Public libraries
